@@ -37,6 +37,16 @@ a {
   grid-gap: 20px;
 }
 
+@media only screen and (max-width: 650px) {
+  .grid {
+    grid-gap: 5px;
+  }
+
+  .header {
+    font-size: large;
+  }
+}
+
 .win-modal {
   height: 100%;
   width: 100%;
