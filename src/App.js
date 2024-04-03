@@ -111,7 +111,7 @@ function App() {
               restartGame();
             }}
           >
-            Restart Game
+            Reset
           </a>
         </div>
       </div>
