@@ -72,6 +72,10 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
+  .container {
+    width: 90%;
+  }
+
   .grid {
     grid-gap: 5px;
   }
