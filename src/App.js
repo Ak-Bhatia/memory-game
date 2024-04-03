@@ -134,7 +134,7 @@ function App() {
           <div>Congrats! you won</div>
           <div>
             <a
-              className="winning-btn"
+              className="play-btn"
               onClick={() => {
                 restartGame();
               }}
