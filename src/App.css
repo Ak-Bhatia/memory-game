@@ -86,14 +86,21 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.85);
   position: fixed;
   top: 0;
+  left: 0;
   color: white;
   justify-content: center;
   font-size: xx-large;
+  font-weight: bold;
 }
 
-.winning-btn {
-  color: bisque;
+.play-btn {
+  color: #f9bc72;
+  transition: color 0.25s;
+}
+
+.play-btn:hover {
+  color: #e7467c;
 }
