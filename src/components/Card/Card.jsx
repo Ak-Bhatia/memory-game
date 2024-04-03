@@ -1,5 +1,7 @@
 import React from "react";
 import images from "../../images";
+import { SlDiamond } from "react-icons/sl";
+
 import "./styles.css";
 
 function Card({ allFlipped, flippedIdx, index, card, checkCard }) {
@@ -21,7 +23,9 @@ function Card({ allFlipped, flippedIdx, index, card, checkCard }) {
           alt={`${card.symbol}`}
         />
       ) : (
-        ""
+        <div>
+          <SlDiamond color="#fff" size={48} />
+        </div>
       )}
     </div>
   );

@@ -1,4 +1,3 @@
-// App.js
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Card from "./components/Card/Card";
@@ -103,7 +102,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <div className="header-content turn-count">Turn Count: {turnCount}</div>
+        <div className="header-content turn-count">Turn: {turnCount}</div>
         <div className="header-content game-name">Matching Game</div>
         <div className="header-content reset-game">
           <a

@@ -2,6 +2,10 @@ a {
   cursor: pointer;
 }
 
+body {
+  background: #210049;
+}
+
 .container {
   width: 80%;
   text-align: center;
@@ -15,14 +19,43 @@ a {
   margin: 20px 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: xx-large;
+  font-weight: bold;
 }
 
 .header-content {
   flex: 1;
+  color: #d9f7ff;
+}
+
+@keyframes color-transition {
+  0% {
+    color: #b485fb;
+  }
+  25% {
+    color: #ffff80;
+  }
+  50% {
+    color: #8cc9ff;
+  }
+  75% {
+    color: #ffff80;
+  }
+  100% {
+    color: #b485fb;
+  }
+}
+
+.game-name {
+  animation: color-transition 5s infinite;
 }
 
 .reset-btn {
-  color: rgb(119, 0, 16);
+  color: #f91f3c;
+  transition: color 0.25s;
+}
+
+.reset-btn:hover {
+  color: white;
 }
 
 .game-container {
