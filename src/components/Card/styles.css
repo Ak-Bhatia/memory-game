@@ -1,7 +1,7 @@
 .card {
   height: 160px;
-  background: rgb(246, 102, 198);
-  /* border: 0.4px solid #f0f0f0; */
+  background: #f666c6;
+  border: 2px solid #f0f0f0;
   cursor: pointer;
   transform: rotateY(180deg);
   transition: transform 0.5s;
@@ -14,5 +14,6 @@
 .flipped {
   transform: rotateY(0deg);
   background: white;
-  border: 1px solid rgba(124, 124, 124);
+  border: 2px solid #ffade4;
+  box-shadow: 2px 2px 5px #ffade4;
 }
