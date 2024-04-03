@@ -15,5 +15,5 @@
   transform: rotateY(0deg);
   background: white;
   border: 2px solid #ffade4;
-  box-shadow: 2px 2px 5px #ffade4;
+  box-shadow: none;
 }
