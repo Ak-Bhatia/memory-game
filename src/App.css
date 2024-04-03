@@ -51,12 +51,16 @@ body {
 }
 
 .reset-btn {
-  color: #f91f3c;
-  transition: color 0.25s;
+  border-radius: 10px;
+  border: 2px solid #ff6f83;
+  padding: 10px;
+  color: #ff6f83;
+  transition: color 0.25s, border 0.25s;
 }
 
 .reset-btn:hover {
   color: white;
+  border-color: white;
 }
 
 .game-container {
