@@ -16,13 +16,14 @@ function Card({ allFlipped, flippedIdx, index, card, checkCard }) {
       onClick={() => checkCard(index)}
     >
       {allFlipped || flippedIdx.includes(index) || card.matched ? (
-        <img
-          src={images[`img${card.symbol}`]}
-          height={"100%"}
-          width={"100%"}
-          alt={`${card.symbol}`}
-        />
+        <div className="card-label">{card.symbol}</div>
       ) : (
+        // <img
+        //   src={images[`img${card.symbol}`]}
+        //   height={"100%"}
+        //   width={"100%"}
+        //   alt={`${card.symbol}`}
+        // />
         <div>
           <SlDiamond color="#fff" size={48} />
         </div>
