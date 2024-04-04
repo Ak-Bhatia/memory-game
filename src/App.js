@@ -11,7 +11,7 @@ function App() {
   const [allFlipped, setAllFlipped] = useState(true);
 
   const initializeGame = () => {
-    const symbols = ["1", "2", "3", "4", "5", "6", "7", "8"];
+    const symbols = ["A", "B", "C", "D", "E", "F", "G", "H"];
     const initialCards = [];
     const numPairs = symbols.length;
 
